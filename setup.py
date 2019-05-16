@@ -11,6 +11,9 @@ setup(
     description = '',
     install_requires = ['setuptools', 'selenium'],
     packages = ['browser'],
+    package_data={
+        'drivers': ['browser/driver/chromedriver_mac', 'browser/driver/chromedriver_linux']
+    },
     entry_points = {
     }
 )
