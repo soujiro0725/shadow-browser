@@ -4,7 +4,7 @@ import time
 from selenium import webdriver
 
 # TODO context manager を使って書き直す
-class Browser():
+class ShadowBrowser():
     def __init__(self,
                  driver_path='./drivers/chromedriver_mac',
                  phantom=False):

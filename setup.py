@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(
-    name = 'ShadowBrowser',
+    name = 'shadow_browser',
     version = '0.1.0',
     url = 'https://github.com/soujiro0725/shadow-browser',
     license = 'MIT',
