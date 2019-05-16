@@ -9,8 +9,8 @@ setup(
     author = 'soujiro0725',
     author_email = 'soujiro0725@gmail.com',
     description = '',
-    install_requires = ['setuptools'],
-    packages = ['shadow_browser'],
+    install_requires = ['setuptools', 'selenium'],
+    packages = ['browser'],
     entry_points = {
     }
 )
