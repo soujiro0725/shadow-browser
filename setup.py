@@ -10,7 +10,7 @@ setup(
     author_email = 'soujiro0725@gmail.com',
     description = '',
     install_requires = ['setuptools'],
-    packages = [],
+    packages = ['shadow_browser'],
     entry_points = {
     }
 )
